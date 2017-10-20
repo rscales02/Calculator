@@ -1,0 +1,47 @@
+body {
+  background: url("http://www.powerpointhintergrund.com/uploads/desk-wallpaper-3.jpg") no-repeat center center;
+  text-align: center;
+}
+
+#calc{
+  background-color: silver;
+  border: 1px solid black;
+  border-radius: 5%;
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 1);
+  height: 300px;
+  margin: 20px auto;
+  width: 250px;
+}
+
+h1 {
+  color: white
+}
+#display{
+  border: 1px solid black;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.75);
+  font-family: "Orbitron";
+  font-size: 20px;
+  height: 25px;
+  margin-bottom: 10px;
+  text-align: right;
+  width: 10em
+}
+
+.keys {
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 1);
+  height: 2em;
+  margin: 3px;
+  width: 3.2em;
+}
+
+.keys:hover,
+.bigKey:hover {
+  cursor: pointer;
+}
+
+.bigKey {
+   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 1);
+   height: 2em;
+   margin: 3px;
+   width: 7.1em;
+}
